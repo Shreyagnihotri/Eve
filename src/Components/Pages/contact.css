@@ -1,0 +1,93 @@
+
+.section-white{
+    padding: 30px 150px;
+}
+
+.team-item{
+    background-color:#eaf2ef;
+    color: #2e294eff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 50px 20px 5px 20px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.team-item:hover{
+    background-color: #835779;
+    color: white;
+}
+
+.team-item h3{
+    margin: 20px 0 1px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.section-title{
+    white-space: pre-line;
+    color: #2e294eff;
+}
+
+.team-info{
+    display: block;
+    margin-bottom: 0;
+}
+
+.team-info p{
+    font-style: italic;
+}
+
+.team-img{
+    max-width: 190px;
+    padding: 6px 6px;
+    background-color: #dedede;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+ul.team-icon{
+    margin-top: 25px;
+    padding-left: 0;
+}
+
+ul.team-icon li{
+    display: inline-block;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+ul.team-icon li a{
+    color: #2e294eff;
+    margin: 0;
+    display: inline-block;
+    padding: 4px 4px;
+    width: 34px;
+    height: 34px;
+    font-size: 25px;
+    line-height: 18px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:768px){
+    .section-white{
+        padding: 0px 0px;
+    }
+    .section-title{
+        padding-top: 10px;
+    }
+}
